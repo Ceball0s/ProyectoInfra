@@ -1,9 +1,0 @@
-# Usa la imagen oficial de PostgreSQL
-FROM postgres:latest
-
-# Copia un script de inicialización, si es necesario
-# COPY init.sql /docker-entrypoint-initdb.d/
-
-# Expone el puerto por defecto de PostgreSQL
-EXPOSE 5432
-
