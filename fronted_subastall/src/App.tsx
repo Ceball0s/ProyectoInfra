@@ -12,6 +12,7 @@ import AuctionRoom from './components/Pages/AuctionRoom';
 import SearchSubasta from './components/Pages/search';
 import CategoriaPage from './components/Pages/categoriaPage';
 
+
 function App() {
   return (
     <AuthProvider>

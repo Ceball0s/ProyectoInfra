@@ -29,7 +29,7 @@ import org.springframework.http.ResponseEntity;
 //@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/ofertas")
-@CrossOrigin(origins = {"http://localhost:5173"})
+@CrossOrigin(origins = {"*"})
 public class OfertaController {
 
     private final OfertaService ofertaService;

@@ -28,7 +28,7 @@ import org.springframework.http.ResponseEntity;
 //@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/subasta")//Subasta
-@CrossOrigin(origins = {"http://localhost:5173"})
+@CrossOrigin(origins = {"*"})
 public class SubastaController {
 
     private final SubastaService subastaService;
