@@ -10,13 +10,13 @@ services:
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5433:5432"
 
   back:
     image: subasta-back
     environment:
       DB_HOST: database
-      DB_PORT: 5432
+      DB_PORT: 5433
       DB_USER: administrador
       DB_NAME: subasta
       DB_PASSWORD: admin
